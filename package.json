@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "cd api && npm install && cd ../admin && npm install && cd ../client && npm install npm && npm run build",
+    "build": "cd api && npm i && cd ../admin && npm i && cd ../client && npm i && npm run build",
     "start": "node api/index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -17,10 +17,5 @@
   "bugs": {
     "url": "https://github.com/sulieman-kh/mern-a-shop/issues"
   },
-  "homepage": "https://github.com/sulieman-kh/mern-a-shop#readme",
-  "dependencies": {
-    "bootstrap": "^4.0.0-alpha.6",
-    "semantic-ui-css": "^2.5.0",
-    "semantic-ui-react": "^2.1.4"
-  }
+  "homepage": "https://github.com/sulieman-kh/mern-a-shop#readme"
 }
