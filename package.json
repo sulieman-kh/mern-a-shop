@@ -1,0 +1,26 @@
+{
+  "name": "a-shop",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "cd api && npm install && cd ../admin && npm install && cd ../client && npm install npm && npm run build",
+    "start": "node api/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sulieman-kh/mern-a-shop.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sulieman-kh/mern-a-shop/issues"
+  },
+  "homepage": "https://github.com/sulieman-kh/mern-a-shop#readme",
+  "dependencies": {
+    "bootstrap": "^4.0.0-alpha.6",
+    "semantic-ui-css": "^2.5.0",
+    "semantic-ui-react": "^2.1.4"
+  }
+}
